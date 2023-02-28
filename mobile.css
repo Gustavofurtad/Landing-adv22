@@ -1,0 +1,430 @@
+@charset 'UTF-8';
+
+/* FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/*FONTES*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --fonte-secundaria:'Libre Baskerville', serif;
+    --fonte-principal: 'Jura', sans-serif;
+    --cor-letras: white;
+    --cor-principal: #272121;
+    --cor-secundaria: #D0A845;
+    --cor-terciaria: #1E1E1E;
+
+    --fonte-input: arial;
+
+    --adv-width: 200px;
+    --adv-height: 250px;
+}
+
+li{ 
+    list-style-type: none; 
+    list-style: none;
+}
+
+a{ 
+    text-decoration: none; 
+}
+
+.DisplayNone{
+    display: none;
+}
+.DisplayFlex{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+header{
+    font-family:var(--fonte-secundaria) ;
+    padding: 10px;
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.Logo{
+    background-image: url("./imagens/logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 53px;
+    height: 50px;
+    background-color: var(--cor-principal);
+}
+
+.material-symbols-outlined{
+    cursor: pointer;
+    color: var(--cor-secundaria);
+}
+
+header h1{
+    font-size: 18px;
+    color: var(--cor-secundaria);
+    padding: 10px;
+}
+
+/* LISTA MENU */
+#Lista{
+    font-family: var(--fonte-secundaria);
+    width: 150px;
+    /* height: 100%; */
+    padding: 40px 10px;
+
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+
+    background-color: var(--cor-principal) ;
+    border-right: 1px solid var(--cor-secundaria);
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+#CloseMenu{
+    display: flex;
+}
+
+.li{
+    width: 100%;
+    padding: 0 5px;justify-content: space-between;cursor: pointer;
+}
+
+.li > a{
+    font-size: 18px;
+    color: var(--cor-secundaria);
+}
+
+.li > a:hover{
+    text-decoration: underline;
+}
+
+.li > ion-icon{
+    color: var(--cor-secundaria);
+}
+
+
+/* SLIDES */
+
+.Slide{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConteinerSlides{
+    position: absolute;
+}
+
+.contentproj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+.contentproj h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    color: white;
+    transform: translateY( 
+    );
+}
+.contentproj p{
+    color: white;
+    font-size: 20px;
+    transform: translateY(-50%, -50%);
+    
+}
+
+/* @keyframes anmtext {0%{
+    opacity: 0;
+    transform: translateX(-100px);
+
+}
+} */
+
+.Slides{
+    display: none;
+}
+.Slides.Active{
+    display: block;
+}
+
+.Slides:nth-child(1){
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.493)),
+            url("./imagens/STJ.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat ;
+    height: 70vh;
+}
+.Slides:nth-child(2){
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.493)),
+            url("./imagens/Supremo-inicio.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat ;
+    height: 70vh;
+}
+.Slides:nth-child(3){
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.493)),
+            url("./imagens/Img-Peso.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat ;
+    height:70vh;
+}
+
+/* .ant,.prox{
+    position: fixed;
+    padding: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.ant:hover,.prox:hover{
+    transition: 0.70s;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+.ant{
+    left: 20px;
+}
+.prox{
+    right: 20px;
+} */
+
+/* Sobre */
+.Sobre{
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-terciaria);
+
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    position: relative;
+    z-index: 5;
+}
+.Sobre h1{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    color: var(--cor-letras);
+}
+#advgd2{
+    width: var(--adv-width);
+    height: var(--adv-height);
+
+    background-image: url("./imagens/adv2.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+.Sobre p{
+    padding: 10px;
+    color: var(--cor-letras);
+    font-size: 14px;
+    text-align: center;
+}
+.Articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+article{
+    width: 200px;
+    text-align: center;
+}
+article h2{
+    color: var(--cor-letras);
+    font-size: 18px;
+}
+
+.ImagensArt{
+    width: 30px;
+}
+
+
+/* ESCRITORIO */
+
+.Escritorio{
+    padding: 30px 5px;
+    flex-flow: column;
+    text-align: center;
+    color: var(--cor-letras);
+    background-color: var(--cor-principal); 
+}
+.ConteinerSlides2{
+    position: absolute;
+}
+
+.Slides2{
+    display: none;
+}
+.Slides2.Active{
+    display: block;
+}
+
+.Slides2:nth-child(1){
+    width: 80vw;
+    background: url("./imagens/escritorio.png");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.Slides2:nth-child(2){
+    width: 80vw;
+    background: url("./imagens/Escritorio1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.Slides2:nth-child(3){
+    width: 80vw;
+    background: url("./imagens/Escritorio2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+#escritorioTitle{
+    width: 100%;
+    flex-flow: column;
+    padding: 10px;
+}
+#escritorioTitle > p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTATO */
+
+.Cbc-Formulario{
+    text-align: center;
+    background-color: #939393;
+    color: black;
+}
+.Cbc-Formulario h1{
+    padding: 10px;
+    font-size: 28px;
+}
+.Cbc-Formulario p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 16px;
+}
+.formulario{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #939393; 
+    
+}
+
+div.Input-center > label{
+    display: flex;
+    align-items: start;
+    font-weight: bolder;
+}
+
+.Input-center{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.person-input{
+    box-shadow: 1px 1px 1px #F7F7F7;
+    border: 1px solid #D7D7D7 ;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 22px;
+} 
+
+div.Input-center > button{
+    /* color: var(--cor-letras);
+    background-color: var(--cor-principal);
+    margin-top: 10px; */
+    color: var(--cor-letras);
+    padding: 10px;
+    border: 0px;
+    background-color: var(--cor-terciaria);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    width: 200px;
+    margin-top: 10px;
+}
+button > a{
+    font-size: 15px;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+} 
+/* Footer */
+.InforFooter{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 4px;
+}
+.InforFooter >  p > a{
+    color: white;
+}
+.ImgFooter{
+    background-color: #272121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+
+
