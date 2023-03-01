@@ -84,6 +84,10 @@
         background-color: var(--cor-principal);
         gap: 3px;
     }
+
+    #btn{
+        display: block;
+    }
     /* BOTÕES SLIDES */
     .ant, .prox{
         display: block;

@@ -26,7 +26,7 @@ function proxEsc(){
     slides2[index2].classList.add('Active')
     
 }
-setInterval(proxEsc, 13000)
+setInterval(proxEsc, 3000)
 
 
 
