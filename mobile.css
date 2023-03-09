@@ -208,27 +208,7 @@ header h1{
     height:70vh;
 }
 
-/* .ant,.prox{
-    position: fixed;
-    padding: 10px;
-    top: 60%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-}
-.ant:hover,.prox:hover{
-    transition: 0.70s;
-    background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
-}
-
-.ant{
-    left: 20px;
-}
-.prox{
-    right: 20px;
-} */
+ 
 
 /* Sobre */
 .Sobre{
@@ -309,25 +289,25 @@ article h2{
 }
 
 .Slides2:nth-child(1){
-    width: 80vw;
+    width: 70vw;
     background: url("./imagens/escritorio.png");
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 35vh;
 }
 .Slides2:nth-child(2){
-    width: 80vw;
+    width: 70vw;
     background: url("./imagens/Escritorio1.jpg");
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 35vh;
 }
 .Slides2:nth-child(3){
-    width: 80vw;
+    width: 70vw;
     background: url("./imagens/Escritorio2.jpg");
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 35vh;
 }
 
 #escritorioTitle{
@@ -335,10 +315,37 @@ article h2{
     flex-flow: column;
     padding: 10px;
 }
+
 #escritorioTitle > p{
     padding: 10px;
     font-family: var(--fonte-principal);
 }
+
+.Flechas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-290%);
+    gap: 70vw;
+}
+.Flecha1{
+    padding: 5px;
+}
+.antEsc,.proxEsc{
+    color: white;
+    cursor: pointer;
+}
+.antEsc:hover,.proxEsc:hover{
+    transition: 0.70s;
+    color: rgba(255, 255, 255, 0.404);
+}
+
+/* .antEsc{
+    left: 20px;
+}
+.proxEsc{
+    right: 20px;
+} */
 
 /* CONTATO */
 
