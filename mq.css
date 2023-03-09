@@ -96,8 +96,17 @@
     .ant, .prox{
         display: block;
     }
-    
-
+    /* BOTAO WPP */
+    #btn > img{
+        width: 60px;
+        border-radius: 22px;
+    }
+    .Home-Button{
+        --diameter: 50px;
+        --buttonSpace: 50px;
+        width: var(--diameter);
+        height: var(--diameter);
+    }
 }
 
 @media only screen and (min-width: 900px){

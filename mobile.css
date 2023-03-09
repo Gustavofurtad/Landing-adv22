@@ -438,8 +438,8 @@ textarea:focus, input:focus, select:focus {
     align-items: center;
 
 
-    --diameter: 35px;
-    --buttonSpace: 35px;
+    --diameter: 50px;
+    --buttonSpace: 30px;
     width: var(--diameter);
     height: var(--diameter);
     
@@ -448,14 +448,12 @@ textarea:focus, input:focus, select:focus {
     right: var(--buttonSpace);
     z-index: 5;
     cursor: pointer;
-    background-color: var(--cor-secundaria);
-    border-radius: 20px;
-    box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.397);
+    border-radius: 25px;
+    
 }
 
-#btn{
-    font-size: 30px;
-    text-shadow: 0px 2px black;
+#btn > img{
+    width: 50px;
 }
 
 
