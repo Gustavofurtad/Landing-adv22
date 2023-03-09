@@ -52,7 +52,7 @@
         height: 35vh;
     } 
     .Flechas{
-        transform: translateY(-310%);
+        transform: translateY(70px);
         gap: 50vw;
     }
 
@@ -154,7 +154,7 @@
         height: 35vh;
     }
     .Flechas{
-        transform: translateY(-335%);
+        transform: translateY(60px);
         gap: 45vw;
     } 
     

@@ -322,10 +322,11 @@ article h2{
 }
 
 .Flechas{
+    position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-    transform: translateY(-290%);
+    align-items: center; 
+    transform: translateY(80px);
     gap: 70vw;
 }
 .Flecha1{

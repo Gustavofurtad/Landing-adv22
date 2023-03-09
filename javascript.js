@@ -26,7 +26,7 @@ function antEsc(){
     index2 = (index2 - 1) % slides2.length;
     slides2[index2].classList.add('Active')
 }
-setInterval(proxEsc, 10000)
+setInterval(proxEsc, 8000)
 
 
 
