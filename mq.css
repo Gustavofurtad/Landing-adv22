@@ -1,0 +1,170 @@
+@media only screen and (min-width: 600px){
+    header{
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    div.Logo{
+        width: 73px;
+        height: 70px;
+    }
+    .li > a{
+        font-size: 20px;
+    }
+
+    div.Img1{    
+        height: 600px;
+
+        background: 
+            linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+            url("./imagens/SupremaCorte.jpg");
+
+        /* background-size: 100% 100%; */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;       
+    }
+
+    div.Img1 > div > #advogado{
+        display: flex;
+    }
+
+    #advogadoTitle{
+        display: none;
+    }
+
+    /* SLIDES ESCRITORIO */
+
+    .Slides2:nth-child(1){
+        width: 50vw;
+        height: 35vh;
+    }
+    .Slides2:nth-child(2){
+        width: 50vw;
+        height: 35vh;
+    }
+    .Slides2:nth-child(3){
+        width: 50vw;
+        height: 35vh;
+    } 
+    .Flechas{
+        transform: translateY(70px);
+        gap: 50vw;
+    }
+
+    /* LISTA MENU */
+    #Lista{
+
+        width: fit-content;
+        display: flex;
+        flex-flow: row;
+        position: static;
+        border: none;
+    }
+
+    header > div.material-symbols-outlined, 
+    #CloseMenu, 
+    .li > ion-icon{
+        display: none;
+    }
+
+    #advgd{
+        width: 350px;
+        height: 500px;
+
+        top: 230px;
+        right: 10px;
+    }
+    .Input-center{
+        width: 50%;
+    }
+    /* Footer */
+    footer{
+        padding: 3px;
+        background-color: var(--cor-principal);
+        gap: 3px;
+    }
+
+    #btn{
+        display: block;
+    }
+    /* BOTÕES SLIDES */
+    .ant, .prox{
+        display: block;
+    }
+    /* BOTAO WPP */
+    #btn > img{
+        width: 60px;
+        border-radius: 22px;
+    }
+    .Home-Button{
+        --diameter: 50px;
+        --buttonSpace: 50px;
+        width: var(--diameter);
+        height: var(--diameter);
+    }
+}
+
+@media only screen and (min-width: 900px){
+    #slides{
+        width: 500px;
+        height: 330px;
+    }
+    div.Img1{ 
+        padding-left: 50px;   
+        justify-content: center;
+        align-items: flex-start;       
+    }
+    div.Img1 > div > h2{
+        font-size: 40px;
+    }
+    
+    div.Img1 > div > #advogado{
+        font-size: 50px;
+    }
+    header{
+        gap: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    div.Logo{
+        width: 85px;
+        height: 80px;
+    }
+    .li > a{
+        font-size: 23px;
+    }
+    .Sobre h1{
+        font-size: 30px;
+    }
+    .Sobre h2{
+        font-size: 25px;
+        
+    }
+    .Sobre p{
+        font-size: 16px;
+    }
+    /* SLIDES ESCRITORIO */
+
+    .Slides2:nth-child(1){
+        width: 40vw;
+        height: 35vh;
+    }
+    .Slides2:nth-child(2){
+        width: 40vw;
+        height: 35vh;
+    }
+    .Slides2:nth-child(3){
+        width: 40vw;
+        height: 35vh;
+    }
+    .Flechas{
+        transform: translateY(60px);
+        gap: 45vw;
+    } 
+    
+}
