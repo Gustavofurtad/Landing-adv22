@@ -5,8 +5,10 @@
         align-items: center;
     }
     div.Logo{
-        width: 73px;
-        height: 70px;
+        background-size: normal;
+        width: 250px;
+        height: 100px;
+        
     }
     .li > a{
         font-size: 20px;
@@ -82,9 +84,44 @@
     .Input-center{
         width: 50%;
     }
+    /* SOBRE */
+    .Articles{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    article.Adv1{
+        height: 400px;
+    }
+    article.Adv2{
+        height: 400px;
+        background-color: #474C55;
+    border-top-left-radius: 50px;
+    box-shadow: 0px 0px 20px
+    black;
+    }
+    article.Adv3{
+        height: 400px;
+        background-color: #474C55;
+    border-top-left-radius: 50px;
+    box-shadow: 0px 0px 20px
+    black;
+    }
+    /* QUALIDADES */
+    div.mq-pc{
+        display: flex;
+    }
+    div.qualidades{
+        width: 50%;
+    }
+    div.txtinf{
+        width: 50%;
+    }
+    div.txtinf > p{
+        padding-bottom: 50px;
+    }
     /* Footer */
     footer{
-        padding: 3px;
         background-color: var(--cor-principal);
         gap: 3px;
     }
@@ -106,6 +143,56 @@
         --buttonSpace: 50px;
         width: var(--diameter);
         height: var(--diameter);
+    }
+    /* CONTATO E LOC */
+    #FtFB{
+        width: 20px;
+    }
+    div.mq-pc2{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        background-color: #0B0806;
+    }
+    div.localizaçao > iframe{
+        border-radius: 20px;
+        padding: 10px;
+        height: 50%;
+        width: 100%;
+    }
+    #Contato{
+        width: 50%;
+    }
+    div.Input-center > button{
+        width: 70%;
+    }
+    /* FOOTER E INF */
+    footer{
+        width: 60%;
+    }
+    .InforFooter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .coluna1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .coluna2{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    div.cop{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+    }
+    div.mq-pc3{
+        display: flex;
     }
 }
 
@@ -132,8 +219,10 @@
         align-items: center;
     }
     div.Logo{
-        width: 85px;
-        height: 80px;
+        background-size: normal;
+        width: 300px;
+        height: 120px;
+        
     }
     .li > a{
         font-size: 23px;
@@ -166,5 +255,34 @@
         transform: translateY(60px);
         gap: 45vw;
     } 
+    /* QUALIDADES */
+    div.mq-pc{
+        display: flex;
+    }
+    div.exp{
+        padding: 40px;        
+    }
+    div.qualidades{
+        padding: 30px;
+        height: 600px;
+
+    }
+    div.txtinf{
+        padding: 50px;
+        width: 50%;
+    }
+    div.txtinf > p{
+        line-height: 30px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    /* LOCALIZAÇÃO */
+    div.localizaçao > iframe{
+        border-radius: 20px;
+        padding: 10px;
+        height: 90%;
+        width: 40vw;
+    }
+    
     
 }

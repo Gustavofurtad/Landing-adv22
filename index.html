@@ -26,11 +26,10 @@
 
 <body>
     <header>
-        <div class="Logo"></div>
+        <div class="Logo">
+        </div>
 
-        <h1 id="advogadoTitle"> Dr Marcos Rocha </h1>
-
-        <div onclick="Burgue()" class="material-symbols-outlined">menu</div>
+        <div onclick="Burgue()" class="material-symbols-outlined" id="burgue">menu</div>
 
         <ul id="Lista" class="DisplayNone">
             <div id="CloseMenu" class="material-symbols-outlined" onclick="Burgue()">
@@ -65,8 +64,10 @@
             <div class="Slides Active">
                 <div class="Slide">
                     <div class="contentproj">
-                        <h1>Marcos Rocha</h1>
-                        <p>Advogados Associados</p>
+                        <h1>Encontre o advogado certo para você: temos os melhores para resolver seu problema!</h1>
+                        <a href="">
+                            <h2>Quero o melhor advogado!</h2>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -74,8 +75,10 @@
             <div class="Slides">
                 <div class="Slide">
                     <div class="contentproj">
-                        <h1>Brenda Arruda</h1>
-                        <p>Advogados Associados</p>
+                        <h1>Encontre o advogado certo para você: temos os melhores para resolver seu problema!</h1>
+                        <a href="">
+                            <h2>Quero o melhor advogado!</h2>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -83,8 +86,10 @@
             <div class="Slides">
                 <div class="Slide">
                     <div class="contentproj">
-                        <h1>Michele Leite</h1>
-                        <p>Advogados Associados</p>
+                        <h1>Encontre o advogado certo para você: temos os melhores para resolver seu problema!</h1>
+                        <a href="">
+                            <h2>Quero o melhor advogado!</h2>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -93,28 +98,30 @@
         <!-- SOBRE -->
 
         <div class="Sobre" id="Sobre">
-            <h1>Sobre:</h1>
+            <!-- <h1>Sobre:</h1>
             <div id="advgd-slide" class="flex">
                 <div id="advgd2"></div>
-            </div>
+            </div> -->
             <div class="Articles">
-                <article>
-                    <img class="ImagensArt" src="imagens/Livro.png" alt="">
-                    <h2>Formação</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis reiciendis unde fugit rem. Vo
+                <article class="Adv1">
+                    <img class="ImagensArt" src="imagens/Julia.png" alt="">
+                    <h1>Júlia</h1>
+                    <h2>Direito Ambiental</h2>
+                    <p>Defender o meio ambiente é garantir o futuro das próximas gerações. Tenho o compromisso de proteger nossos recursos naturais e garantir um mundo sustentável para todos. 
                     </p>
                 </article>
-                <article>
-                    <img class="ImagensArt" src="imagens/Balança.png" alt="">
-                    <h2>Especialidade</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius labore, saepe quaerat a eveniet
+                <article class="Adv2">
+                    <img class="ImagensArt" src="imagens/Marcos.png" alt="">
+                    <h1>Marcos</h1>
+                    <h2>Direito Trabalhista</h2>
+                    <p>Tenho o compromisso de proteger e defender os direitos dos trabalhadores, assegurando a dignidade e a justiça em todas as relações de trabalho.
                     </p>
                 </article>
-                <article>
-                    <img class="ImagensArt" src="imagens/Mão.png" alt="">
-                    <h2>Praticidade</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iure delectus voluptatibus
-                        voluptates! Dolorum</p>
+                <article class="Adv3">
+                    <img class="ImagensArt" src="imagens/Leandro.png" alt="">
+                    <h1>Leandro</h1>
+                    <h2>Direito Tributário, Direito Penal</h2>
+                    <p>Minha missão é garantir que meus clientes cumram suas obrigações tributárias de maneira legal e justa, ao mesmo tempo em que os defendo contra quaisquer acusações criminais infundadas.</p>
                 </article>
             </div>
         </div>
@@ -155,70 +162,118 @@
             </div>
 
         </div>
+        <!-- QUALIDADES -->
+        <div class="mq-pc">
+            <div class="qualidades">
+                <div class="exp">
+                    <div class="alinhar">
+                        <h1>Experiência</h1>
+                        <img src="imagens/Cérebro (2).png" alt="Cérebro">
+                    </div>
+                    <p>Combinando nossos conhecimentos especializados e habilidades complementares, trabalhamos juntos para oferecer soluções inovadoras para cada caso.</p>
+                </div>
+                <div class="exp">
+                    <div class="alinhar">
+                        <h1>Confiança</h1>
+                        <img src="imagens/segurança.png" alt="Cérebro">
+                    </div>
+                    <p>Nosso compromisso é oferecer aos nossos clientes um ambiente seguro para discutir seus problemas jurídicos , além de fornecer conselhos honestos e transparentes.</p>
+                </div>
+                <div class="exp">
+                    <div class="alinhar">
+                        <h1>Praticidade</h1>
+                        <img src="imagens/smile.png" alt="Cérebro">
+                    </div>
+                    <p>Com habilidade e praticidade, oferecemos soluções jurídicas eficazes e acessíveis aos clientes, sempre buscando atender suas necessidades de maneira clara e objetiva.</p>
+                </div>
+            </div>
+            <!-- TEXTO INFORMATIVO -->
+            <div class="txtinf">
+                <p>Se você está procurando por um advogado experiente para ajudá-lo com seu caso, você veio ao lugar certo. Nossa equipe de advogados especializados está aqui para prestar apoio legal e aconselhamento útil. Não importa o quão complexa seja a sua situação, nós temos a experiência e a habilidade necessárias para ajudá-lo a obter os resultados que você deseja. Entre em contato conosco hoje para ver como podemos ajudar!</p>
+                <a href="">
+                    <h2>Quero o melhor advogado!</h2>
+                </a>
+            </div>
+        </div>
             
 
         <!-- CONTATO -->
 
-        <div id="Contato" class="Cbc-Formulario">
-            <h1>Entre em contato</h1>
-            <p>
-                Para dúvidas e solicitações preencha o formúlario de contato abaixo que responderemos o mais breve
-                prossível.
-            </p>
-
-            <form class="formulario">
-                <div class="Input-center">
-                    
-                    <input placeholder="* Nome" class="person-input" type="text" name="" id="nome" required>
-
-
-                    <input placeholder="* E-mail"  
-                    class="person-input"  type="email" name="" id="email" required>
-
-
-                    <input placeholder="* Telefone" class="person-input"  type="tel" name="" id="telefone" required>
-
-
-                    <textarea placeholder="* Assunto" class="person-input"  name="assunto" id="assunto" cols="30" rows="10"></textarea>
-
-                    <button id="subitEmail" type="submit" value="Enviar">
-                        <a target="_blank">Enviar</a>
-                    </button>
+        <div class="mq-pc2">
+            <div id="Contato" class="Cbc-Formulario">
+                <h1>Entre em contato</h1>
+                <p>
+                    Para dúvidas e solicitações preencha o formúlario de contato abaixo que responderemos o mais breve
+                    prossível.
+                </p>
+                <form class="formulario">
+                    <div class="Input-center">
+            
+                        <input placeholder="* Nome" class="person-input" type="text" name="" id="nome" required>
+                        <input placeholder="* E-mail"
+                        class="person-input"  type="email" name="" id="email" required>
+                        <input placeholder="* Telefone" class="person-input"  type="tel" name="" id="telefone" required>
+                        <textarea placeholder="* Assunto" class="person-input"  name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                        <button id="subitEmail" type="submit" value="Enviar">
+                            <a target="_blank">Enviar</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+                <!-- LOCALIZAÇÃO -->
+                <div class="localizaçao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15925.386837954813!2d-38.513639626352386!3d-3.7344009444982498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7486014c1681b%3A0x3fa37c86ffc173ef!2sAv.%20Santos%20Dumont%2C%202122%20-%20Aldeota%2C%20Fortaleza%20-%20CE%2C%2060150-161!5e0!3m2!1spt-BR!2sbr!4v1679067156008!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </form>
-
         </div>
     </main>
-    <footer>
-        <div class="ImgFooter">
-            <a href="">
-                <img src="imagens/instagram.png" alt="Logo instagram">
-            </a>
-
-            <a href="#">
-                <img src="imagens/linkedin.png" alt="Logo linkedin">
-            </a>
-
-            <a href="https://api.whatsapp.com/send?phone=5585981666881&text=Olá,%20estou a procura de informações." target="_blank">
-                <img src="imagens/whatsapp.png" alt="Logo whatsapp">
-            </a>
+    <!-- FOOTER -->
+    <div class="mq-pc3">
+        <footer>
+            <div class="InforFooter">
+                <div class="coluna1">
+                    <p class="inf">
+                        <img src="imagens/icn-whatsapp.png" alt="">
+                        <a href="https://api.whatsapp.com/send?phone=5585981666881&text=Olá,%20estou a procura de informações." target="_blank">(085) 98782-3789</a>
+                    </p>
+                    <p class="inf">
+                        <img src="imagens/icn-telefone.png" alt="">
+                        <a href="">(085) 4002-8922</a>
+                    </p>
+                    <p class="inf">
+                        <img src="imagens/icn-instagram.png" alt="">
+                        <a href="">@mradvogadosassociados</a>
+                    </p>
+                </div>
+                <div class="coluna2">
+                    <p class="inf">
+                        <img id="FtFB" src="imagens/facebook.png" alt="">
+                        <a href="">Mradvogadosassociados</a>
+                    </p>
+                    <p class="inf">
+                        <img src="imagens/email.png" alt="">
+                        <a
+                        href="mailto:>Advogadosassociados@email.com"> Advogadosassociados@email.com</a>
+                    </p>
+                    <p class="inf">
+                        <img id="FtFB" src="imagens/loc.png" alt="">
+                        <a href="">Rua orion, 1246</a>
+                    </p>
+                </div>
+        
+            </div>
+        
+        </footer>
+        <div class="cop">
+            <img src="imagens/image 33.png" alt="">
+            <p>© Copyright 2023 – Todos os direitos reservados.</p>
+            <p>Desenvolvido por .Orion Soluções Tecnológicas</p>
         </div>
-
-        <div class="InforFooter">
-            <p><a href="https://api.whatsapp.com/send?phone=5585981666881&text=Olá,%20estou a procura de informações." target="_blank">(085) 98782-3789</a></p>
-            <p>
-                <a
-                href="mailto:>Advogadosassociados@email.com"> Advogadosassociados@email.com</a>
-            </p>
-            <p>
-                <a href="">Rua orion, 1246</a>
-            </p>
-        </div>
-    </footer>
-        <a class="Home-Button" href="https://api.whatsapp.com/send?phone=5585981666881&text=Olá,%20estou a procura de informações." target="_blank"> <span id="btn">
+    </div>    
+        <!-- <a class="Home-Button" href="https://api.whatsapp.com/send?phone=5585981666881&text=Olá,%20estou a procura de informações." target="_blank"> <span id="btn">
             <img src="imagens/BtnWpp.png" alt="">
             </span>
-        </a>
+        </a> -->
     <script src="javascript.js"></script>
 </body>
 
