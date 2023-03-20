@@ -60,7 +60,7 @@
 
     /* LISTA MENU */
     #Lista{
-
+        background-color: white;
         width: fit-content;
         display: flex;
         flex-flow: row;
@@ -276,13 +276,19 @@
         font-size: 20px;
         margin-bottom: 50px;
     }
-    /* LOCALIZAÇÃO */
+    /* LOCALIZAÇÃO e FOOTER */
     div.localizaçao > iframe{
         border-radius: 20px;
         padding: 10px;
         height: 90%;
         width: 40vw;
     }
-    
-    
+    .InforFooter p > img{
+        width: 30px;
+        border-radius: 5px;
+    }
+    #FtFB{
+        padding: 5px;
+        width: 25px;
+    }
 }

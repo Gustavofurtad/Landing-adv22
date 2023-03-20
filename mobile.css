@@ -87,6 +87,7 @@ div.Logo{
 
 /* LISTA MENU */
 #Lista{
+    background-color: var(--cor-5);
     font-family: var(--fonte-principal);
     width: 150px;
     /* height: 100%; */
